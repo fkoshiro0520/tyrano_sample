@@ -1,23 +1,22 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="逆襲のD"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「逆襲のD」[l][r]
 
-メロスは激怒した。[l][r]
+球団史上初の２年連続最下位に沈んだD。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+来年こそは必ず巻き返すと決意した。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+戦力補強は必須。そこで、N選手がGを退団するニュースが飛び込んできた。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →獲得する [endlink][r]
+[link target=*tag_run] →必要ない [endlink][r]
 [s]
 
 *tag_sleep
@@ -26,10 +25,40 @@
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+見事、補強に成功した。[l][r]
+名古屋の期待は高まるばかり。[l][r]
+シーズンが開幕。[l][r]
+Nの活躍もあり、4月に首位に立った。[l][r]
+しかし、、、[l][r]
+それ以降、チームの調子は急降下[l][r]
+Nも調子を大きく落としていた[l][r]
+[link target=*tag_continue] →Nを使い続ける [endlink][r]
+[link target=*tag_fall] →二軍に降格させる [endlink][r]
+[s]
+
+*tag_continue
+
+[cm]
+
+[bg storage=sleep.jpg time=500]
+
+半年後、、、[l][r]
+３年連続の最下位に終わり、監督は退任した。[r]
 
 【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_fall
+
+[cm]
+
+[bg storage=sleep.jpg time=500]
+
+半年後、、、[l][r]
+調子のいい選手をうまく使い、N選手の調子を取り戻す[l][r]
+見事、優勝に導いた[l][r]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
@@ -38,9 +67,9 @@
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+１年後、、、[l][r]
+３年連続の最下位に終わり、監督は退任した。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
